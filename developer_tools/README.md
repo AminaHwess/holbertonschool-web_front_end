@@ -31,6 +31,9 @@ At the end of this project, you should be able to explain the following concepts
 
 ## How to Use
 
+In this project, you will analyze this website: [https://dev-tools.hbtn.info/](https://dev-tools.hbtn.info/).
+
+
 1. Open Developer Tools in any of the supported browsers.
 2. Use the **Elements tab** to modify HTML and CSS live on the page.
 3. Use the **Console tab** to run JavaScript snippets for testing.
