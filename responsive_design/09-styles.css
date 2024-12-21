@@ -272,16 +272,7 @@ template {
 
 /* Base
     ============================= */
-@media (max-width: 480px) {
-  .html {
-    font-size: 57%;
-  }
-}
-@media (min-width: 481px) and (max-width: 767px) {
-  .html {
-    font-size: 60%;
-  }
-}
+
 *,
 *:before,
 *:after {
@@ -372,7 +363,16 @@ main img {
   width: 100%;
   height: auto;
 }
-
+@media (max-width: 480px) {
+    .html {
+      font-size: 57%;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .html {
+      font-size: 60%;
+    }
+  }
 /*** 2. LAYOUT ***/
 
 /* Layout
@@ -611,19 +611,7 @@ ul.row {
 /* Footer
     ============================= */
 
-@media (max-width: 767px) {
-  :root {
-    --footer-padding: 5rem 2rem 1rem;
-  }
-  .footer .social.nav,
-  .footer .footer-nav {
-    text-align: center;
-  }
-  footer .social.nav li + li,
-  footer .footer-nav li + li {
-    padding-left: 2rem;
-  }
-}
+
 
 .footer {
   --nav-item-font-weight: normal;
@@ -691,7 +679,19 @@ ul.row {
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
 }
-
+@media (max-width: 767px) {
+    :root {
+      --footer-padding: 5rem 2rem 1rem;
+    }
+    .footer .social.nav,
+    .footer .footer-nav {
+      text-align: center;
+    }
+    footer .social.nav li + li,
+    footer .footer-nav li + li {
+      padding-left: 2rem;
+    }
+  }
 /* Section theming
     ============================= */
 
@@ -790,17 +790,7 @@ ul.row {
 
 /* Card WORK
     ============================= */
-@media (max-width: 767px) {
-  .card-work .card-inner {
-    --text-color: var(--color-white);
-  }
-  .card-work .card-title {
-    opacity: 1;
-  }
-  .card-work .card-title .a {
-    padding: 2rem 1rem 0 1rem;
-  }
-}
+
 .card-work .card-outer {
   position: relative;
   overflow: hidden;
@@ -862,7 +852,17 @@ ul.row {
 .card-work:hover .card-title {
   opacity: 1;
 }
-
+@media (max-width: 767px) {
+    .card-work .card-inner {
+      --text-color: var(--color-white);
+    }
+    .card-work .card-title {
+      opacity: 1;
+    }
+    .card-work .card-title .a {
+      padding: 2rem 1rem 0 1rem;
+    }
+  }
 /* Card SERVICES
     ============================= */
 

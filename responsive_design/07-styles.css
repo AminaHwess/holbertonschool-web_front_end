@@ -250,16 +250,7 @@ html {
   
   /* Base
     ============================= */
-  @media (max-width: 480px) {
-    .html {
-        font-size: 57%;
-    }
-  }
-  @media (min-width: 481px) and (max-width: 767px) {
-    .html {
-        font-size: 60%;
-    }
-  }
+  
   *, *:before, *:after {
     box-sizing: border-box;
   }
@@ -326,7 +317,16 @@ html {
     color: var(--color-primary);
     background: var(--color-white);
   }
-  
+  @media (max-width: 480px) {
+    .html {
+        font-size: 57%;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .html {
+        font-size: 60%;
+    }
+  }
   /* Helpers
     ============================= */
   
