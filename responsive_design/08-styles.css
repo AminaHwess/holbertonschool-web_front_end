@@ -813,7 +813,7 @@ html {
     .card-work .card-title {
         opacity: 1;
     }
-    .card-work .card-title .a {
+    .card-work .card-title a {
         padding: 2rem 1rem 0 1rem;
     }
   }
